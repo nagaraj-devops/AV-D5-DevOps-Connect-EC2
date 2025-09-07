@@ -16,8 +16,7 @@
 
 ## 3. Set Permissions on Key
 Run in your terminal:
-```bash
-chmod 400 ~/keys/mykey.pem
+```chmod 400 ~/keys/mykey.pem```
 
 ## 4. SSH into EC2
 
