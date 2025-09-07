@@ -39,4 +39,4 @@ Run:
 
 Example:
 
-ssh -i ~/keys/mykey.pem ec2-user@54.201.123.45
+```ssh -i ~/keys/mykey.pem ec2-user@54.201.123.45```
