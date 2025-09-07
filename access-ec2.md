@@ -18,3 +18,26 @@
 Run in your terminal:
 ```bash
 chmod 400 ~/keys/mykey.pem
+
+## 4. SSH into EC2
+
+Run:
+```ssh -i ~/keys/mykey.pem ubuntu@<PUBLIC-IP>```
+
+👉 Replace: ~/keys/mykey.pem → path to your key file.
+
+      ubuntu → the username (depends on AMI):
+      
+      Amazon Linux → ec2-user
+      
+      Ubuntu → ubuntu
+      
+      RHEL → ec2-user or root
+      
+      CentOS → centos
+
+      <PUBLIC-IP> → your EC2 public IP.
+
+Example:
+
+ssh -i ~/keys/mykey.pem ec2-user@54.201.123.45
